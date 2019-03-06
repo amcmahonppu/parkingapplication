@@ -1,5 +1,5 @@
 {
-    "name": "com.pointpark.parkingapp",
+    "name": "com.pointpark.parkingapplication",
     "displayName": "HelloCordova",
     "version": "1.0.0",
     "description": "A sample Apache Cordova application that responds to the deviceready event.",
@@ -12,11 +12,20 @@
     "dependencies": {
         "cordova-android": "^7.1.4",
         "cordova-ios": "^4.5.5",
+        "cordova-plugin-googlemaps": "^2.5.2",
         "cordova-plugin-whitelist": "^1.3.3"
     },
     "cordova": {
         "plugins": {
-            "cordova-plugin-whitelist": {}
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-googlemaps": {
+                "API_KEY_FOR_ANDROID": "AIzaSyDK2Du7rvxW4d4NQmKg8qAyxaZ0dGgaY5k",
+                "API_KEY_FOR_IOS": "AIzaSyDK2Du7rvxW4d4NQmKg8qAyxaZ0dGgaY5k",
+                "PLAY_SERVICES_VERSION": "15.0.1",
+                "ANDROID_SUPPORT_V4_VERSION": "27.+",
+                "LOCATION_WHEN_IN_USE_DESCRIPTION": "This app wants to get your location while this app runs only.",
+                "LOCATION_ALWAYS_USAGE_DESCRIPTION": "This app wants to get your location always, even this app runs in background."
+            }
         },
         "platforms": [
             "android",

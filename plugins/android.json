@@ -8,7 +8,13 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.pointpark.parkingapp"
+      "PACKAGE_NAME": "com.pointpark.parkingApplication"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_ANDROID": "AIzaSyDK2Du7rvxW4d4NQmKg8qAyxaZ0dGgaY5k",
+      "PLAY_SERVICES_VERSION": "15.0.1",
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.pointpark.parkingApplication"
     }
   },
   "dependent_plugins": {}

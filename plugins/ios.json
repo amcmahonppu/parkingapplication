@@ -8,7 +8,13 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.pointpark.parkingapp"
+      "PACKAGE_NAME": "com.pointpark.parkingApplication"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_IOS": "AIzaSyDK2Du7rvxW4d4NQmKg8qAyxaZ0dGgaY5k",
+      "LOCATION_WHEN_IN_USE_DESCRIPTION": "This app wants to get your location while this app runs only.",
+      "LOCATION_ALWAYS_USAGE_DESCRIPTION": "This app wants to get your location always, even this app runs in background.",
+      "PACKAGE_NAME": "com.pointpark.parkingApplication"
     }
   },
   "dependent_plugins": {}
